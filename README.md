@@ -1,5 +1,5 @@
 # Encryption
-> Implementation of different kinds of encryption algorithm in C#, Python and Java
+> Implementation of different kinds of basic encryption algorithm in C#, Python and Java
 
 ## Implemeted Encryption Methods include:
 - Cearser Ciphering
