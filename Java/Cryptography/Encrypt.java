@@ -2,7 +2,7 @@ package Cryptography;
 
 
 public class Encrypt{
-    public static String trans(String plaintext, int key){
+    public static String trans(String plaintext, int key) {
 
         String distribute = "";
         String[] rowDistribute;
@@ -35,7 +35,7 @@ public class Encrypt{
         return ciphertext;
     }
 
-    public static String shiftCipher(String plaintext, int key){
+    public static String shiftCipher(String plaintext, int key) {
         String ciphertext = "";
         int ord, newOrd;
 
@@ -61,11 +61,11 @@ public class Encrypt{
         return ciphertext;
     }
 
-    public static String ceaser(String plaintext){
+    public static String ceaser(String plaintext) {
         return shiftCipher(plaintext, 3);
     }
 
-    public static String trans(String plaintext, String key){
+    public static String trans(String plaintext, String key) {
         int cols = key.length();
         int rows = plaintext.length() / cols;
         rows = (plaintext.length() % cols == 0) ? rows : rows + 1;
